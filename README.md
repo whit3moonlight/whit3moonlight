@@ -44,7 +44,7 @@
 
 <p align="center">
  
-<table align="center">
+<table align="center" class="tabla">
 <tr border="none">
 <td width="50%" align="center">
 <img align="center" alt="GIF" src="https://github.com/arsentieva/arsentieva/blob/main/code.gif?raw=true" height="280" width="280"/>
