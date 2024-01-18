@@ -1,0 +1,188 @@
+<svg width="300" height="485" viewBox="0 0 400 730" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .header {
+            font: 600 20px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #9745f5;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+        }
+        .lang-name {
+            font: 400 14px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #ffffff
+        }
+        @keyframes scaleInAnimation {
+            from {
+                transform: translate(-5px, 5px) scale(0);
+            }
+            to {
+                transform: translate(-5px, 5px) scale(1);
+            }
+        }
+        @keyframes fadeInAnimation {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        * {
+            animation-duration: 0s !important;
+            animation-delay: 0s !important;
+        }
+    </style>
+    <rect data-testid="card-bg" x="0.5" y="0.5" rx="4.5" height="99%" stroke="#E4E2E2" width="399" fill="#000000"
+        stroke-opacity="1" />
+    <g data-testid="card-title" transform="translate(25, 35)">
+        <g transform="translate(0, 0)">
+            <text x="0" y="0" class="header" data-testid="header">level of my languages</text>
+        </g>
+    </g>
+    <g data-testid="main-card-body" transform="translate(0, 55)">
+        <svg data-testid="lang-items" x="25">
+            <g transform="translate(0, 0)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">JavaScript</text>
+                <text x="315" y="34" class="lang-name">80%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#f1e05a" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="80%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 40)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">C++</text>
+                <text x="315" y="34" class="lang-name">70%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#f34b7d" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="70%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 80)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">Python</text>
+                <text x="315" y="34" class="lang-name">45%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#3572A5" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="45%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 120)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">CSS</text>
+                <text x="315" y="34" class="lang-name">90%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#563d7c" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="90%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 160)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">Java</text>
+                <text x="315" y="34" class="lang-name">60%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#b07219" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="60%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 200)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">HTML</text>
+                <text x="315" y="34" class="lang-name">90%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#e34c26" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="90%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 240)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">C</text>
+                <text x="315" y="34" class="lang-name">60%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#555555" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="60%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 280)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">Laravel</text>
+                <text x="315" y="34" class="lang-name">70%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#DA5B0B" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="70%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 320)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">PHP</text>
+                <text x="315" y="34" class="lang-name">75%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#4F5D95" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="75%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 360)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">JQuery</text>
+                <text x="315" y="34" class="lang-name">63%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#0CEAE6" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="63%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 400)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">NodeJS</text>
+                <text x="315" y="34" class="lang-name">70%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#0A9222" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="70%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 440)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">Angular</text>
+                <text x="315" y="34" class="lang-name">70%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#A00303" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="70%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 480)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">ThreeJS</text>
+                <text x="315" y="34" class="lang-name">80%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#262626" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="80%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 520)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">React</text>
+                <text x="315" y="34" class="lang-name">55%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#00A8D9" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="55%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 560)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">Vue</text>
+                <text x="315" y="34" class="lang-name">50%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#65CA9D" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="50%">
+                    </rect>
+                </svg>
+            </g>
+            <g transform="translate(0, 600)">
+                <text data-testid="lang-name" x="2" y="15" class="lang-name">.NET</text>
+                <text x="315" y="34" class="lang-name">60%</text>
+                <svg width="305" x="0" y="25">
+                    <rect rx="5" ry="5" x="0" y="0" width="305" height="8" fill="#ddd"></rect>
+                    <rect height="8" fill="#450FEE" rx="5" ry="5" x="0" y="0" data-testid="lang-progress" width="60%">
+                    </rect>
+                </svg>
+            </g>
+        </svg>
+    </g>
+</svg>
