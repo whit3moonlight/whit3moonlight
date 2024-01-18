@@ -40,11 +40,10 @@
 <br>
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Skills Stats </b>
-<link rel="stylesheet" type="text/css" href="style.css">
 
 <p align="center">
  
-<table align="center" class="tabla">
+<table align="center">
 <tr border="none">
 <td width="50%" align="center">
 <img align="center" alt="GIF" src="https://github.com/arsentieva/arsentieva/blob/main/code.gif?raw=true"/>
