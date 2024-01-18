@@ -40,18 +40,19 @@
 <br>
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Skills Stats </b>
-<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 
 <p align="center">
  
 <table align="center" class="tabla">
 <tr border="none">
 <td width="50%" align="center">
-<img align="center" alt="GIF" src="https://github.com/arsentieva/arsentieva/blob/main/code.gif?raw=true" height="280" width="280"/>
+<img align="center" alt="GIF" src="https://github.com/arsentieva/arsentieva/blob/main/code.gif?raw=true"/>
    <br></br>
 </td>
 <td width="50%" align="center">
 <img align="center" src="/stats.svg"/>
+   <br></br>
   </td>
 </tr>
 </table>
