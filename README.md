@@ -40,24 +40,21 @@
 <br>
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Skills Stats </b>
-<!--- stats & Trophy (start) -->
+<link rel="stylesheet" type="text/css" href="styles.css">
+
 <p align="center">
-  <!--- stats (start) -->
+ 
 <table align="center">
 <tr border="none">
 <td width="50%" align="center">
 <img align="center" alt="GIF" src="https://github.com/arsentieva/arsentieva/blob/main/code.gif?raw=true" height="280" width="280"/>
+   <br></br>
 </td>
 <td width="50%" align="center">
-<img align="center" alt="stats" src="/stats.svg"/>
-</td>
+<img align="center" src="/stats.svg"/>
+  </td>
 </tr>
 </table>
-<!--- stats (end) -->
-
-<!--- trophy (start) -->
-        
-<!--- stats (end) -->
 
 <p  align="center">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">             
